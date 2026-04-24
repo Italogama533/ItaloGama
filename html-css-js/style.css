@@ -1,0 +1,108 @@
+:root{
+ --white:#fff;
+ --dark: #000;
+}
+[data-theme = "dark"]{
+    --white: #000;
+    --dark: #fff;
+}
+*{
+   padding: 0;
+   margin: 0; 
+   box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background-color: var(--white);
+    color: rgb(255, 255, 255);
+
+    
+    
+}
+header{
+
+    width: 100%;
+    display: flex;
+    padding: 40px;
+    margin: 1%;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    nav ul{
+        display: flex;
+        gap: 24px;
+        list-style-type: none;
+        background-color: rgba(42, 40, 44);
+        padding: 16px 20px;
+        border-radius: 12px;
+        position: fixed;
+        
+        align-items: center;
+        justify-content: center;
+    }
+}
+.kordsa{
+width: 500px;
+align-items: start;
+justify-content: left;
+}
+.proa{
+    width: 500px;
+    align-items: end;
+    justify-content: right;
+}
+
+section{
+    background-color: rgba(42, 40, 44, 0.815);
+    display: flex;
+    flex-direction: column;
+    padding: 200px;
+    margin: 2%;
+    border-radius: 12px;
+    box-sizing: content-box;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+
+    
+}
+.secao1{
+   justify-content: center;
+   h1{
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+   }
+
+}
+.secao2{
+     justify-content: center;
+   h2{
+    align-items: center;
+    padding: 10px;
+    justify-content: center;
+   }
+}
+.botaomenu{
+    text-decoration: none;
+    background-color: rgb(42, 40, 44);
+    color: rgb(255, 255, 255);
+}
+.cortema{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    background-color:rgba(42, 40, 44);
+    color: #fff;
+    padding: 2rem;
+    border-width: 0.1cap;
+    border-radius: 50px;
+    font-family: "poppins";
+}
+html{
+    scroll-behavior: smooth;
+    font-family: "poppins";
+}
